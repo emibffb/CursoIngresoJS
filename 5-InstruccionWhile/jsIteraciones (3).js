@@ -1,8 +1,21 @@
-function mostrar()
-{
+function mostrar() {
 
-var clave = prompt("ingrese el número clave.");
-document.getElementById("UTN750").value = clave     
+    var clave
+    clave = prompt("Ingresar clave");
+
+    while (clave != "utn750") {
+        clave = prompt("Ingrese nuevamente")
+        
+
+
+
+    }
+    alert("Bienvenido");
+    
+
+
+
+
 
 
 }//FIN DE LA FUNCIÓN
